@@ -1,0 +1,93 @@
+@charset "utf-8";
+body, ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, table, th, td {
+	margin: 0;
+	padding: 0;
+}
+body {
+	line-height: 1;
+	font-family: "Open Sans", "Noto Sans KR", sans-serif;
+	font-size: 0.9em;
+	color: #000;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+img {
+	vertical-align: top;
+}
+.container{
+	margin: 0 auto;
+	padding: 40px 90px;
+}
+
+.banner1{
+	display: flex;
+	flex-direction: row;
+}
+.news{
+	width: 100%;
+	margin: 0 auto;
+	padding-right: 6em;
+}
+.tltle{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+.tltle h1{
+	font-size: 1.3em;
+}
+.tltle a{
+	color: #67686d;
+}
+.newslist ul li a{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	white-space: nowrap;
+	line-height: 30px;
+}
+.newslist ul li a p{
+	color: #67686d;
+}
+.box{
+	height: 100%;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	text-align: center;
+}
+.box ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.box ul{
+	border-bottom: 1px solid #ddd;
+}
+.box ul li{
+	border-right: 1px solid #eee;
+}
+.box ul li:last-child{
+	border-right: none;
+}
+.box ul:last-child {
+	border-bottom: none;
+}
+.box ul li a{
+	display: inline-block;
+	width: 10em;
+    height: 3.4em;
+	line-height: 3.5em;
+	letter-spacing: -0.5px;
+}
+.banner2 ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 40px 0;
+	gap: 3em;
+}
