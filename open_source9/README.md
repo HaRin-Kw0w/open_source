@@ -8,7 +8,7 @@
 
 
 
-### `🎯description`
+### `🎯Description`
 
 - 외부 JSON 데이터를 로딩하는 기법으로 Fetch API를 활용
 - React를 활용한 컴포넌트의 상태 및 사이드 이펙트 관리, 데이터 패칭 및 DOM 조작
