@@ -16,6 +16,6 @@
 
 ### `URL`
 - [View](https://open-source2-flax.vercel.app)
-- [Vercel]([https://vercel.com/harins-projects-c8638d5b/open-source9](https://vercel.com/harins-projects-c8638d5b/open-source2))
+- [Vercel](https://vercel.com/harins-projects-c8638d5b/open-source2)
 
 
