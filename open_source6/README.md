@@ -5,7 +5,7 @@ React를 사용하여 만든 이미지 슬라이더(gallery) 컴포넌트로 사
 
 
 *********************************************
-**React, JavaScript Fetch API, JavaScript map()**
+**React, JavaScript Fetch API, JavaScript map(),Video API**
 
 
 
