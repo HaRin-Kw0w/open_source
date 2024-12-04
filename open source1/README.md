@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# 💡React Binding
+이 예제를 통해 React와 CSS를 활용하여 뉴스 목록을 관리하고 검색 기능을 제공하였습니다
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+주로 리스트 렌더링과 폼 제출 기능을 처리하며, 데이터는 외부 데이터 파일로부터 불러와서 화면에 동적으로 표시하도록 하였으며, HTML과 JavaScript를 혼합할 수 있는 JSX 문법을 활용하여 가독성이 높은 코드를 작성했습니다. 
 
-## Available Scripts
+data.js 파일에서 관리되며, React의 map() 함수를 사용하여 각 뉴스 항목을 반복 렌더링합니다. 뉴스 목록을 테이블 형태로 나열하고, 각 뉴스 항목은 position을 조정하여 제목을 ellipsis 처리하여 사용성을 높였습니다.
 
-In the project directory, you can run:
 
-### `npm start`
+*********************************************
+**React, Hook, JavaScript map(), CSS**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### `🎯Description`
+- 외부 JSON 데이터를 효율적으로 로드하여 효율적인 데이터 처리와 사용자 경험을 동시에 고려하였습니다
+- GNB 구현, 검색 기능 및 동적 뉴스 항목 렌더링을 통해 빠르고 직관적인 탐색 등을 제공하여 사용자의 효율성을 높였습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `URL`
+- [View](https://open-source1-three.vercel.app)
+- [Vercel](https://vercel.com/harins-projects-c8638d5b/open-source1)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
