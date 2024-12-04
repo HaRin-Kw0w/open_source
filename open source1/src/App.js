@@ -1,5 +1,5 @@
 import News from'./News.js'
-import './New.css';
+import './css/style.css';
 
 function App(){
 	return(
