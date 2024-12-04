@@ -16,7 +16,7 @@ data.js 파일에서 관리되며, React의 map() 함수를 사용하여 각 뉴
 - GNB 구현, 검색 기능 및 동적 뉴스 항목 렌더링을 통해 빠르고 직관적인 탐색 등을 제공하여 사용자의 효율성을 높였습니다.
 
 ### `URL`
-- [View](https://open-source1-three.vercel.app)
+- [View](open-source1-nu.vercel.app)
 - [Vercel](https://vercel.com/harins-projects-c8638d5b/open-source1)
 
 
